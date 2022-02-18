@@ -1,0 +1,234 @@
+/* &display=swap */
+@import "null.css";
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mariupol";
+	src: url("../fonts/Mariupol-Bold.woff2") format("woff2"), url("../fonts/Mariupol-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Mariupol";
+	src: url("../fonts/Mariupol-Regular.woff2") format("woff2"), url("../fonts/Mariupol-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+.container {
+	max-width: 1200px;
+margin: 0 auto;
+}
+.header {
+}
+.nav {
+}
+.menu {
+	text-align: center;
+	font-size: 0;
+	margin: 0px 0px 30px 0px;
+}
+.inline{
+font-family: "Mariupol";
+font-weight: 700;
+		font-size: 25px;
+		text-transform: uppercase;
+		display: inline-block;
+		background-color: rgba(191, 212, 85, 0.722);
+		padding: 10px 5px;
+		border-radius: 13% 87% 5% 46% / 38% 41% 59% 62%;
+		border: 1px solid #5F5F5F;
+		color:blueviolet;
+		opacity: 0.7;
+
+}
+.content {
+	font-family: "Mariupol";
+	font-size: 20px;
+}
+.link {
+	text-decoration: underline;
+	color: #1f15159c;
+	display: inline-block;
+	border:2px solid #313131;
+	padding: 10px 7px;
+	border-radius:30% 70% 70% 30% / 30% 54% 46% 70%;
+	background-color: aquamarine;
+	box-shadow: 2px 5px 4px 2px rgb(19, 184, 41);
+	margin: 0px 20px 30px 0px;
+}
+.howlong {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	border-bottom: 2px dashed #989898;
+	color:cadetblue;
+
+}
+.block1 {
+}
+.block1-how {
+	font-weight: 700;
+	font-size: 40px;
+	text-transform:capitalize;
+	text-align: center;
+	padding: 5px 0px;
+	margin: 0px 0px 20px 0px;
+		border-radius: 10px;
+		border:3px double #5d5683;
+		background-color:#B8B8B8;
+		max-width: 600px;
+		box-shadow: inset 3px 3px 3px 5px rgba(27, 25, 24, 0.4);
+}
+.block1-image {
+		max-width: 500px;
+margin: 0px 0px 25px 0px;
+}
+.block1-text {
+	border: 5px dotted #5d5683;
+	border-radius: 90px;
+	padding: 10px;
+	margin: 0px 0px 30px 0px;
+	overflow: hidden;
+	color: rgb(160, 9, 9);
+
+}
+.time {
+	font-family: "Mariupol";
+	font-weight: 700;
+	font-size: 30px;
+	color: #988598;
+	text-decoration: underline;
+	text-transform: capitalize;
+	margin: 0px 0px 10px 0px;
+	border:3px solid #5d5683;
+	display: inline-block;
+	border-radius: 8px;
+	padding: 5px;
+	box-shadow: inset 4px 4px 6px 2px rgba(121, 35, 35);
+}
+h3.time1{
+	border: 5px solid #5d5683;
+	font-size: 29px;
+	border-radius:13% 7% 54% 46% / 38% 41% 5% 62%;
+	display: inline-block;
+	color: #5e0c5e;
+}
+.time-list {
+	color:#378534;
+	margin: 0px 0px 40px 0px;
+	opacity: 0.5;
+		font-size: 25px;
+}
+.time-list2{
+	text-decoration: overline;
+	color: #678656;
+	font-size: 20px;
+	line-height: 1.2;
+	margin: 0px 0px 32px 0px;
+}
+ul.time-list li{
+	margin: 0px 0px 10px 0px;
+}
+.block1-text2{
+	outline: 3px double #3664;
+	margin: 0px 0px 15px 0px;
+	padding: 12px;
+}
+.footer {
+}
+
+
+
+
+
+
+
+
+
+
+.container-figma {
+	max-width: 1025px;
+	margin: 0 auto;
+	padding: 140px 0px 0px 0px;
+}
+.header-figma {
+max-width: 750px;
+text-align: center;
+margin: 0 auto 224px auto;
+}
+.title-figma {
+	font-family: "CircularStd";
+	font-weight: 500;
+	font-size: 65px;
+	margin: 0px 0px 20px 0px;
+	padding: 8.5px 0px;
+	color: #313131;
+}
+.subtitle-figma {
+   font-family: "CircularStd";
+	font-size: 18px;
+	line-height: 1.5;
+	color: #5F5F5F;
+	padding: 0px 32px;
+}
+.main-figma {
+}
+.servise {
+	margin: 0px 0px 125px 0px;
+	max-width: 508px;
+}
+.title-service {
+	font-family: "CircularStd";
+	font-weight: 500;
+	font-size: 34px;
+	margin: 0px 0px 20px 0px;
+	padding: 5px 0px;
+	opacity: 0.88;
+	color: #313131;
+}
+.paragraph-service {
+	font-family: "CircularStd";
+	font-size: 18px;
+	line-height: 1.5;
+	color: #5F5F5F;
+	padding: 0px 20px 0px 0px;
+}
+.name {
+	margin: 0px 0px 30px 0px;
+	max-width: 152px;
+}
+.gragos {
+	font-family: "CircularStd";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.3;
+	margin: 0px 0px 5px 0px;
+	color: #313131;
+}
+.mareting {
+	font-family: "CircularStd";
+	font-size: 18px;
+	line-height: 1.2;
+	color: #B8B8B8;
+}
+.footer-figma {
+}
